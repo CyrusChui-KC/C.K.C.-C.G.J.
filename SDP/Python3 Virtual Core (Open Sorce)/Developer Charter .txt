@@ -1,0 +1,24 @@
+# Developer Charter for Python3 Virtual Core-Open Source
+
+## 1. Purpose
+This Developer Charter outlines the guidelines and responsibilities for developers contributing to the Python3 Virtual Core-Open Source project, ensuring adherence to copyright regulations as per the Intellectual Property Department of Hong Kong, China.
+
+## 2. Developer Rights
+- **Contribution**: Developers have the right to contribute code, documentation, and other materials to the project.
+- **Attribution**: Contributors will receive appropriate credit for their contributions.
+
+## 3. Developer Responsibilities
+- **Respect Copyright**: Developers must ensure that their contributions do not infringe on the copyrights of others. Original work is encouraged.
+- **No Commercial Use**: Contributions must not be made for commercial purposes without explicit permission.
+- **Documentation**: Developers must provide clear documentation for their contributions, including usage instructions and licensing information.
+
+## 4. Code of Conduct
+- **Collaboration**: Developers are expected to collaborate respectfully and constructively with others.
+- **Transparency**: Developers should maintain transparency in their contributions and communicate any potential conflicts of interest.
+
+## 5. Limitations
+- The project is provided "as is," and developers assume all risks associated with their contributions.
+- The project maintainers are not liable for any issues arising from the use of the code or contributions.
+
+## 6. Contact Information
+For inquiries regarding this Developer Charter or to discuss contributions, please contact cyruschuikc@gmail.com.

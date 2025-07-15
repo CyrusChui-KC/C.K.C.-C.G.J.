@@ -1,0 +1,59 @@
+Import random
+Import datetime
+Import time
+
+Class Demo
+    Subprogram --init--
+        self.bunch <-- bunch
+        self.name <-- name
+        self.ver <-- ver
+
+    Subprogram virtual-user
+        Input username of your PC
+        return the username of your PC
+
+    Subprogram path
+        User <-- virtual-user()
+        output f"{bunch}/{user}|>{name}/{ver}|>-"
+	
+    Subprogram gen-OTP
+	OTP <-- random integer (100000, 999999)
+	return OTP
+
+    Subprogram enter-OTP
+	times <-- 0
+	Password <-- self.gen-OTP
+	output ("Please enter this OTP to verify that you are not a robot", Password)
+	input password
+	While password not = Password,
+	    output "Authentication failed! Please retry."
+	    times +1
+	    If times >=5,
+	        output("You entered wrong OTP several times! Please wait", times, "sec.(s) then retry.") 
+	    	time sleep (times)
+	        input password
+	    Else,
+	        input password
+
+    Subprogram DateTime
+        return datetime.datetime.now()
+
+    Subprogram WeekDay
+        Datetime <-- self.DateTime()
+	return Datetime.strftime("%A")
+
+    Subprogram displayTIME
+        --Datetime-- <-- self.DateTime()
+	Week <--self.WeekDay()
+	output (Week, dattime.datetime.now())
+
+If --name-- = "--main--",
+    bunch <-- "DemoBunch"
+    prog-name <-- "DemoOfPython3VirtualCore-OpenSource"
+    version <-- "1.0"
+    demo <-- Demo(self, bunch, prog-name, version)
+    demo.displayTIME()
+    demo.gen-OTP()
+    demo.enter-OTP()
+    demo.path()
+    demo.displayTIME()
