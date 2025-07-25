@@ -5,3 +5,5 @@ It is a Programming Career Plan for CHUI Ka Chun and CHUI Hoshizato Galaxy born 
 ### News
 - 12 July 2025：The 1st project "Python3 Virtual Core 2025" for our "C.K.C. * Hoshizato Galaxy" Carrer Project has been uploaded to the SDP floder in this repositories. The full informations could found at https://github.com/CyrusChui-KC/C.K.C.-C.H.G./tree/main/SDP .
 - 15 July 2025：The 2nd project "Python3 Virtual Core-Open Source" for our "C.K.C. × Hoshizato Galaxy" Carrer Project has been uploaded to the SDP floder in this repositories. The full informations could found at https://github.com/CyrusChui-KC/C.K.C.-C.H.G./tree/main/SDP/Python3%20Virtual%20Core%20(Open%20Sorce) .
+- 25 July 2025：The ziped source package of Python3 Virtual Core 2025（P3VC-25）will be available to the public for a litmited time in this repository until the next Dynamic Updates.
+  https://github.com/CyrusChui-KC/C.K.C.-C.H.G./blob/main/P3VC-25_SetupPackage.zip
