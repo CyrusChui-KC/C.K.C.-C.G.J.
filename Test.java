@@ -16,5 +16,9 @@ public class TestPackageClass{
     else{
       system.out.println("wlcome to cinema!");
     }
+    for (int index = 0; index < 3; index++){
+      system.out.println("Testing...");
+      system.out.println("Test Passed!");
+    }
   }
 }
