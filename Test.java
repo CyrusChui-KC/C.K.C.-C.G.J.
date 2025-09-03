@@ -13,5 +13,8 @@ public class TestPackageClass{
     if (num1 < 18){
       system.out.println("Go home watch cartoon!");
     }
+    else{
+      system.out.println("wlcome to cinema!");
+    }
   }
 }
